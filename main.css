@@ -1,0 +1,125 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+@font-face{
+	font-family:Nunito;
+	src:url(assets/font/Nunito-Regular.ttf);
+}
+.navbar{
+	background-color:rgba(13,143,65);
+}
+a.nav-link{
+	font-size:17px;
+	font-weight:500;
+}
+.main-slider{
+	height:auto;
+	width:auto;
+	margin-top:30px;
+}
+.slider-down-left>h1{
+	padding-top:45px;
+}
+.principal{
+	margin-top:50px;
+}
+.principal_para{
+	font-size:19px;
+}
+.para2{
+	width:92%;
+	margin:auto;
+}
+.header {
+    width: 100%;
+    height: 210px;
+    line-height: 120px;
+    background-color:#fff;
+	text-align:center
+}
+.slider-down-right{
+	height:400px;
+	margin-top:100px;
+	//border:1px solid gray;
+}
+.inner-slider-down-right{
+	width:95%;
+	margin:auto;
+	height:100%;
+	border:1px solid gray;
+	border-radius:2%;
+}
+.down-header{
+	height:90px;
+	width:100%;
+	background:rgba(13,143,65);
+	border-radius:2% 2% 0% 0%;
+}
+.down-header>h3{
+	text-align:center;
+	line-height:90px;
+	font-family:Nunito;
+}
+.news{
+	width:90%;
+	margin-left:7%;
+	margin-top:20px;
+}
+.news>li{
+	height:100px;
+}
+
+	.gallery>h3 {
+	text-align:center;
+	font-family: Nunito;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 32px;
+	padding-top:40px;
+	color: #020202;
+}
+.clear{
+	clear:both;
+}
+#section4{
+	margin-top:60px;
+}
+.gallery_images{
+	margin-top:40px;
+}
+.image{
+	//border:1px solid black;
+	height:250px;
+	width:250px;
+	float:left;
+	margin:1%;
+	margin-bottom:40px;
+	box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.1), -4px -4px 30px rgba(0, 0, 0, 0.1);
+	border-radius: 20px;
+}
+.image>img{
+	//box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.1), -4px -4px 30px rgba(0, 0, 0, 0.1);
+border-radius: 20px;
+}
+.gallery_btn{
+	background: #4CAF50;
+	border-radius: 32px 32px 0px 32px;
+	font-family: Nunito;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 24px;
+	text-align: center;
+	color: #FFFFFF;
+	margin-left:42%;
+	margin-top:20px;
+	width: 202px;
+	height: 64px;
+	margin-bottom:30px;
+	border:none;
+}
+@media screen and (max-width:569px) {
+	.gallery_btn{
+		margin-left:10%;
+	}
+}
